@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ICSStyleManager"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
   s.summary = "ICSStyleManager is a lightweight iOS theming library"
 
   s.description  = <<-DESC
@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
   s.platform = :ios, '7.0'
   s.requires_arc = true
 
-  s.source = { :git => "https://github.com/icecreamstudios/ICSStyleManager.git", :commit => "ca78200df14268150b9b4b470a9fa5b343481fdd" }
+  s.source = { :git => "https://github.com/icecreamstudios/ICSStyleManager.git", :commit => "fff8be0ed3751db4e6d27bd7890d9dad4b691d57" }
   
   s.source_files = 'Source', 'Source/**/*.{h,m}'
   s.exclude_files = 'Source/Libraries'
 
-  # s.dependency 'DDMathParser', "~> 1.0.0"
+  s.dependency 'DDMathParser', "~> 1.0.1" # requires proper spec in private Spce repo
 
 end
